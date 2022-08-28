@@ -18,7 +18,7 @@
                 Rio das Ostras! </p>
             <img src="#" alt="Foto do Studio com maca para deitar, cadeiras cor-de-
             rosa, equipamento de tatuagem e artes expostas pela parede" width="" 
-            height=""> <!--inserir a imagem do local aqui-->
+            height=""/> <!--inserir a imagem do local aqui-->
         </section>
         <section>
             <iframe>
@@ -54,30 +54,69 @@
             <details>
                 <summary>Primeiros dias</summary>
                 <p>Não utilizar cremes e hidrantes. <br>
-                Apenas lavar a tatuagem de 2 a 3 vezes por dia e deixar a pele 
-                respirar.</p>
-            </details>
-            <details>
-                <summary>Quando começar a coçar</summary>
-                <p>Não coce ou arranque as casquinhas que vão aparecer! 
-                    Isso poderá estragar a sua tatuagem e ferir a pele <br>
-                    Hidrate com óleo de coco ou óleo vegetal natural na hora de 
-                    dormir e utilize pomada cicatrizante 2 vezes por dia.</p>
-            </details>
-            <details>
-                <summary>Evite sol e água do mar</summary>
-                <p>Durante os próximos 15 dias depois de tatuar, não exponha a 
-                    pele ao sol e à maresia. Não tome banho de mar ou de piscina.<br> 
-                    Utilize protetor solar no local sempre que estiver ao ar 
-                    livre</p>
-            </details>            
-        </section>
-        <section>
-            <h2>Como chegar</h2>
-            <p>O Studio está localizado na parte superior do Ostrashopping, dentro da loja "NomeDaLoja"</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.4845442115484!2d-41.94013395029992!3d-22.52351478513547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b374a52038cd%3A0xa7126739ac544d80!2sLoha%20Tattoo%20studio!5e0!3m2!1spt-BR!2sbr!4v1661400900373!5m2!1spt-BR!2sbr" 
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+                    Apenas lavar a tatuagem de 2 a 3 vezes por dia e deixar a pele 
+                    respirar.</p>
+                </details>
+                <details>
+                    <summary>Quando começar a coçar</summary>
+                    <p>Não coce ou arranque as casquinhas que vão aparecer! 
+                        Isso poderá estragar a sua tatuagem e ferir a pele <br>
+                        Hidrate com óleo de coco ou óleo vegetal natural na hora de 
+                        dormir e utilize pomada cicatrizante 2 vezes por dia.</p>
+                    </details>
+                    <details>
+                        <summary>Evite sol e água do mar</summary>
+                        <p>Durante os próximos 15 dias depois de tatuar, não exponha a 
+                            pele ao sol e à maresia. Não tome banho de mar ou de piscina.<br> 
+                            Utilize protetor solar no local sempre que estiver ao ar 
+                            livre</p>
+                        </details>            
+                    </section>
+                    <section>
+                        <h2>Sua tattoo aqui!</h2>
+                        <p>Deixe aqui as informações para criação do projeto da sua tattoo
+                           e para o valor exato do orçamento. 
+                        </p>
+                        <form>
+                            <label for="formName">Nome</label>
+                            <input type="text" name="name" id="formName">
+                            <label for="formEmail">E-mail</label>
+                            <input type="email" name="email" id="formEmail">
+                            <label for="formPhone">Número para contato</label>
+                            <input type="tel" name="phone" id="formPhone" pattern="([0-9] {2})
+                                   [0-9] {5}-[0-9] {4}" maxlenght="14">
+                            <label for="formFiles">Envie 3 referências de 
+                                   inspiração para a tattoo que vocẽ quer fazer</label>
+                            <input type="file" multiple name="files[]" id="formFiles">
+                            <label for="formPhoto">Envie uma foto circulando o local do corpo</label>
+                            <input type="file" name="file" id="formPhoto">
+                            <label for="formSize">Tamanho da tattoo em centímetros (altura x largura)</label>
+                            <input type="text" name="size" id="formSize">
+                            <label for="formChoice">Estilo da tattoo</label>
+                            <div>
+                                <input type="radio" name="choice" id="choiceBlack" value="Black Work">
+                                <label for="choiceBlack">Black Work</label>
+                                <input type="radio" name="choice" id="choiceFine" value="Fine Line">
+                                <label for="choiceFine">Fine Line (traços delicados e finos)</label>
+                                <input type="radio" name="choice" id="choiceColor" value="Colorida">
+                                <label for="choiceColor">Colorida</label>
+                                <input type="radio" name="choice" id="choiceNeotrad" value="Neotrad">
+                                <label for="choiceNeotrad">Neotrad</label>
+                                <input type="radio" name="choice" id="choiceOther" value="Outro">
+                                <label for="choiceOther">Outro</label>
+                                <input type="text" name="anotherChoice">
+                            </div>
+                            <laber for="formDetails">Detalhes que queira acrescentar</laber>
+                            <input type="textarea" name="details" id="formDetails" cols="50" rows="30">
+                            <button type="button" id="btnSend">Enviar</button>
+                        </form>
+                    </section>
+                    <section>
+                        <h2>Como chegar</h2>
+                        <p>O Studio está localizado na parte superior do Ostrashopping, dentro da loja "NomeDaLoja"</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.4845442115484!2d-41.94013395029992!3d-22.52351478513547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x97b374a52038cd%3A0xa7126739ac544d80!2sLoha%20Tattoo%20studio!5e0!3m2!1spt-BR!2sbr!4v1661400900373!5m2!1spt-BR!2sbr" 
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </section>
     
     </main>
     <footer>
