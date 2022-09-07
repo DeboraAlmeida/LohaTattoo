@@ -6,7 +6,7 @@ Rio das Ostras - RJ<br>
 ## Status do projeto
 Em construção
 
-Início: agosto/2022
+Início: agosto/2022<br>
 Previsão de término: março/2023
 
 ## Sobre o Projeto
@@ -28,5 +28,5 @@ A ideia do projeto surgiu em agosto de 2022 e pretendo desenvolvê-lo aos poucos
 - Desenvolver habilidades de prototipação e criação de UI
 
 ## Créditos
-As imagens utilizadas são de autoria de Lohana Martins
+As imagens utilizadas são de autoria de Lohana Martins<br>
 [Loha Tattoo](https://www.instagram.com/tattoo_loha/?igshid=YmMyMTA2M2Y%3D)
